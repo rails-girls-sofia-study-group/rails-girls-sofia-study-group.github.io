@@ -1,0 +1,20 @@
+body {
+ background: url('../images/Background.jpg') fixed center;
+ background-size: cover;
+ font: 14px Verdana;
+ color: #FFF;
+
+}
+
+a:link {
+    color: #FF0000;
+}
+
+
+#desc {
+    width: 50%;
+    font: 15px Verdana;
+    border-style: solid;
+    border-width: 5px;
+    border color: blue
+}
