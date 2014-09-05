@@ -1,25 +1,55 @@
 body {
- background: url('../images/Background.jpg') fixed center;
- background-size: cover;
  font: 14px Verdana;
- color: #FFF;
-
+ color: #000;
+ margin: 0;
 }
 
 a:link {
     color: #FF0000;
 }
 
-.descriptions {
+.background {
+  height: 500px;
+  background: url('../images/Background.jpg') fixed center;
+  background-size: cover;
+}
+
+.content {
+  background-color: white;
+  font: 15px Verdana;
+  height: 100%;
+  text-align: center;
+}
+
+.content .desc {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  width: 30%;
+  height: 250px;
+  padding: 3px;
+}
+
+.header {
+  height: 200px;
+  margin-top: 0;
+}
+
+.h1 {
+ margin: 0;
+}
+
+/*.descriptions {
   text-align: center;
 }
 .descriptions div {
-  background-color: rgba(0,0,0,0.6);
   display: inline-block;
   text-align: left;
-  width: 26%;
+  position: relative;
+  width: 30%;
   height: 250px;
-  padding: 10px;
+  padding: 3px;
+  margin-top: 50px;
 }
 
 .materials {
@@ -27,15 +57,14 @@ a:link {
 }
 
 .materials div {
-  background-color: rgba(0,0,0,0.6);
   display: inline-block;
   text-align: left;
   width: 300px;
   height: 250px;
   padding: 10px;
   margin-top: 50px;
-}
-
+}*/
+/*
 .desc {
   font: 15px Verdana;
   border-style: solid;
@@ -43,4 +72,4 @@ a:link {
   border-color: #FFF;
   height: 300px
 }
-
+*/
