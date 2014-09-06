@@ -1,11 +1,12 @@
 body {
- font: 14px Verdana;
- color: #000;
- margin: 0;
+  font: 14px Verdana;
+  color: #000;
+  margin: 0;
+  background: url('../images/Background.jpg') fixed center;
 }
 
 a:link {
-    color: #FF0000;
+  color: #FF0000;
 }
 
 .background {
@@ -15,61 +16,55 @@ a:link {
 }
 
 .content {
-  background-color: white;
+  background-color: rgba(255,255,255,0.3);
   font: 15px Verdana;
   height: 100%;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .content .desc {
-  display: inline-block;
+  background-color: white;
   text-align: left;
   position: relative;
   width: 30%;
   height: 250px;
-  padding: 3px;
+  padding: 8px;
+  margin:40px 20px 40px 20px;
+}
+
+h1 {
+  margin-top: 30px;
+  color: #e82825;
 }
 
 .header {
+  background-color: white;
+  color: #e82825;
   height: 200px;
   margin-top: 0;
-}
-
-.h1 {
- margin: 0;
-}
-
-/*.descriptions {
   text-align: center;
-}
-.descriptions div {
-  display: inline-block;
-  text-align: left;
   position: relative;
-  width: 30%;
-  height: 250px;
-  padding: 3px;
-  margin-top: 50px;
 }
 
-.materials {
-  text-align: center;
+.header h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.materials div {
-  display: inline-block;
-  text-align: left;
-  width: 300px;
-  height: 250px;
-  padding: 10px;
-  margin-top: 50px;
-}*/
-/*
-.desc {
-  font: 15px Verdana;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #FFF;
-  height: 300px
+.header div{
+  display: inline-block
 }
-*/
+
+table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
