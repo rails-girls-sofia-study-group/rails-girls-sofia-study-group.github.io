@@ -74,3 +74,7 @@ table {
   height: 250px;
   margin:250px;
 }
+
+img {
+  max-width: 100%
+}
