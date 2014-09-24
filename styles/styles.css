@@ -68,11 +68,18 @@ table {
 .soon {
   background-color: rgba(255,255,255,0.8);
   text-align: center;
-  text-shadow: 0 0 2.5em #ff6666, 0 0 2.5em #ff6666, 0 0 2.5em #ff6666, 0 0 2.5em #ff6666, 0 0 2.5em #ff6666, 0 0 2.5em #ff6666;
   position: center;
   width: 38%;
   height: 250px;
   margin:250px;
+  border-radius: 20pt;
+  border-style: groove;
+  border-color: #FF7373;
+}
+
+#soon1 {
+  color: #F3C2C2;
+  text-shadow: 2px -2px 0 #FF1919, 0px 0px 0 #FF1919, -1px 1px 0 #FF1919, 2px 2px 0 #FF1919;
 }
 
 img {
