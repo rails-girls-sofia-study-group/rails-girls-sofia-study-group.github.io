@@ -286,6 +286,7 @@ article {
 .map {
   position: relative;
 }
+
 .map .overlay {
   background: rgba(255, 255, 255, 0.3);
   cursor: pointer;
@@ -296,6 +297,10 @@ article {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.partner-logo {
+  max-width: 304px;
 }
 
 /* Correct padding on smaller screens */
